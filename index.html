@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Автокөлікті жалға алу платформасы</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Бірінші бет</a></li>
+                <li><a href="cars.html">Машиналар</a></li>
+                <li><a href="contact.html">Байланыс</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="car-list">
+            <h2>Қолжетімді машиналар</h2>
+            <div class="car">
+                <h3>БМВ</h3>
+                <p>BMW машина түрлері</p>
+                <button onclick="toggleBMWModels()">Толығырақ</button>
+                <div id="bmw-models" style="display: none;">
+                    <h4>BMW 3 сериясы</h4>
+                    <p>BMW 3 сериясының сипаттамасы</p>
+                    <a href="bmw3series.html" class="button">Толығырақ</a>
+                    <hr>
+                    <h4>BMW 5 сериясы</h4>
+                    <p>BMW 5 сериясының сипаттамасы</p>
+                    <a href="bmw5series.html" class="button">Толығырақ</a>
+                    <hr>
+                    <h4>BMW 7 сериясы</h4>
+                    <p>BMW 7 сериясының сипаттамасы</p>
+                    <a href="bmw7series.html" class="button">Толығырақ</a>
+                </div>
+            </div>
+            <hr>
+            <div class="car">
+                <h3>Hyundai</h3>
+                <p>Hyundai машина түрлері</p>
+                <button onclick="toggleHyundaiModels()">Толығырақ</button>
+                <div id="hyundai-models" style="display: none;">
+                    <h4>Hyundai Elantra</h4>
+                    <p>Hyundai Elantra сипаттамасы</p>
+                    <a href="hyundai1.html" class="button">Толығырақ</a>
+                    <hr>
+                    <h4>Hyundai Sonata</h4>
+                    <p>Hyundai Sonata сипаттамасы</p>
+                    <a href="hyundai2.html" class="button">Толығырақ</a>
+                    <hr>
+                    <h4>Hyundai Tucson</h4>
+                    <p>Hyundai Tucson сипаттамасы</p>
+                    <a href="hyundai3.html" class="button">Толығырақ</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 машина жалдау платформасы</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

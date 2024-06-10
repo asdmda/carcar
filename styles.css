@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, #2C3E50, #34495E);
+    color: #ecf0f1;
+}
+
+header {
+    background: linear-gradient(to bottom, #34495E, #2C3E50);
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.car, .car-details {
+    border: 1px solid #555;
+    padding: 10px;
+    margin: 10px 0;
+    background: linear-gradient(to bottom, #485460, #2C3E50);
+}
+
+.car-models-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.car-model {
+    flex: 3;
+    text-align: center;
+}
+
+.car-images {
+    display: flex;
+}
+
+.car-image {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+}
+
+#bmw-models, #hyundai-models {
+    padding: 10px;
+    margin-top: 10px;
+    border-top: 1px solid #666;
+}
+
+button, .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, .button:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: linear-gradient(to bottom, #34495E, #2C3E50);
+    color: white;
+}
+
+hr {
+    border: 1px solid #555;
+}
